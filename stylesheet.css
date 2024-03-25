@@ -1,10 +1,11 @@
 #grid-container {
     display: flex;
     flex-direction: column;
-    width: 350px;
-    height: 350px;
+    width: 900px;
+    height: 900px;
     border-style: solid;
     border-color: blue;
+    padding: 0px;
 }
 
 .row-container {
@@ -13,7 +14,7 @@
     border-color: red;
     margin: -1px;
     border: 0px;
-    flex: 1;
+    flex-basis: auto;
 }
 
 .square {
