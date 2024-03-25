@@ -24,4 +24,4 @@ function createRowContainer(gridSize) {
     return rowContainer;
 }
 
-populateGrid("30");
+gridContainer.addEventListener("DOMContentLoaded", populateGrid("16"));
