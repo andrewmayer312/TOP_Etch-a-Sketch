@@ -18,6 +18,10 @@ function createRowContainer(gridSize) {
     for (let i = 0; i < gridSize; i++) {
         const square = document.createElement("div");
         square.classList.toggle("square");
+
+        square.addEventListener("mouseover", () => {
+            square.classList.add("fill-square");
+        });
         rowContainer.appendChild(square);
     }
 
